@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Youth Library</title>
+    <!-- Logo -->
+    <link href="./assets/logo.svg" rel="icon" type="image/svg" sizes="16x16" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- External Css -->
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+    <!-- Start Navigation Bars -->
+    <nav class="nav-bars">
+        <h3 class="nav-logo">
+            <span class="title">Youth</span>
+            <span class="subtitle">Library</span>
+        </h3>
+
+        <ul class="nav-items">
+            <li><a href="index.html" class="actived">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#members">Memberships</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="auth">
+            <a href="#">
+                <i class="fas fa-user-plus"></i>
+                Register
+            </a>
+
+            <a href="#">
+                <i class="fas fa-sign-in-alt"></i>
+                Login
+            </a>
+        </div>
+
+    </nav>
+    <!-- End Navigation Bars -->
+
+    <!-- Start Banner -->
+    <div class="banner">
+        <div class="description">
+            <h1>Reading</h1>
+            <p>"The more that you read, the more things you will know.
+                The more that you learn, the more places you will go."
+            </p>
+        </div>
+    </div>
+
+    <!-- End Banner -->
+
+    <!-- Start Search Section -->
+    <section class="searchs-section">
+
+        <label for="search">Filter : </label>
+        <select name="items" id="items">
+            <option value="">All</option>
+            <option value="">Anime Manga</option>
+            <option value="">Art&Photography</option>
+            <option value="">Education</option>
+            <option value="">Foods</option>
+            <option value="">Magazine</option>
+            <option value="">Music</option>
+            <option value="">Science Fiction</option>
+        </select>
+        <input type="text" name="search" id="search" class="search" placeholder="Search by Book Name or Author..."
+            autocomplete="off" />
+        <span class="searchicon"><i class="fas fa-search"></i></span>
+        <a href="#" class="searchbtn">Search</a>
+
+    </section>
+    <!-- End Search Section -->
+
+
+    <!-- Start News Section -->
+    <section class="news-section" id="news">
+        <div class="captions-wrap">
+            <div class="desc">
+                <p>Youth Library</p>
+                <h1>New Arrivals : </h1>
+            </div>
+            <div class="buttons">
+                <a href="#">View All</a>
+                <div class="left">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="right">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="products">
+
+            <div class="product-item">
+                <img src="./assets/books/htmlcss.png" alt="Image">
+
+                <div class="product-infos">
+                    <h4>Head First HTML and CSS</h4>
+                    <p>By ALEXIS GOLDSTEIN</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="./assets/books/javascript.jpg" alt="Image">
+
+                <div class="product-infos">
+                    <h4>Learning JavaScript 3rd Edition</h4>
+                    <p>By ETHAN BROWN</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="./assets/books/dsandalgo.png" alt="Image">
+
+                <div class="product-infos">
+                    <h4>Advanced Algorithms and Data Structures</h4>
+                    <p>By MARCELLO LA ROCCA</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="./assets/books/designpattern.jpg" alt="Image">
+
+                <div class="product-infos">
+                    <h4>JavaScript Design Pattern</h4>
+                    <p>By ADDY OSMANI</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="./assets/books/java3.png" alt="Image">
+
+                <div class="product-infos">
+                    <h4>Head First Java 2nd Edition</h4>
+                    <p>By Kathy Sierra</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="forwardbtns">
+            <i class="fas fa-chevron-left"></i>
+            <a href="#" class="activated">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">...</a>
+            <a href="#">10</a>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </section>
+    <!-- End News Section -->
+
+
+    <!-- Start Showcase -->
+    <div class="status-title" id="members">
+        <h1>Our Status</h1>
+    </div>
+    <section class="showcases">
+        <div class="displays books">
+            <i class="fas fa-book"></i>
+            <h1>3000</h1>
+            <p>Books</p>
+        </div>
+
+        <div class="displays members">
+            <i class="fas fa-users"></i>
+            <h1>1200</h1>
+            <p>Members</p>
+        </div>
+
+        <div class="displays downloaders">
+            <i class="fas fa-file-download"></i>
+            <h1>3000</h1>
+            <p>Downloads</p>
+        </div>
+
+        <div class="displays authors">
+            <i class="fas fa-user-edit"></i>
+            <h1>450</h1>
+            <p>Authors</p>
+        </div>
+
+    </section>
+    <!-- End Showcase -->
+
+
+    <!-- Start About Us -->
+    <section class="about" id="about">
+        <div class="captions">
+            <p>Youth Library</p>
+            <h1>Our Story</h1>
+        </div>
+        <div class="container">
+            <div class="history">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                </p>
+            </div>
+            <div class="image">
+                <img src="./assets/image.jpg" alt="Image">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- start goals -->
+    <div class="goals">
+        <div class="vision">
+            <p>Youth Library</p>
+            <h1>Our Vision</h1>
+            <p class="infos">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s.
+            </p>
+        </div>
+
+        <div class="mission">
+            <p>Youth Library</p>
+            <h1>Our Mission</h1>
+            <p class="infos">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s.
+            </p>
+        </div>
+    </div>
+    <!-- end goals -->
+    <!-- End About Us -->
+
+    <!-- Start Contact -->
+    <footer class="contact-infos" id="contact">
+        <div class="info">
+            <i class="fas fa-phone"></i>
+            <a href="#">+959123456789</a>
+        </div>
+        <div class="info">
+            <i class="far fa-envelope"></i>
+            <a href="#">www.youthlibrary@gmail.com</a>
+        </div>
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+    <!-- End Contact -->
+
+    <div class="developer">
+        <p>&copy; Copyright 2021, All Right Reserved | developed by Shinmike</p>
+    </div>
+
+    <a href="index.html">
+        <div class="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </a>
+
+</body>
+
+</html>
